@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="target/classes" path="src/main/java">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
@@ -34,5 +29,9 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/zhangxuelong/Desktop/jfxrt.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/zhangxuelong/Desktop/aspectjtools.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zhangxuelong/Desktop/org.aspectj.matcher.jar"/>
+	<classpathentry kind="lib" path="E:/个人学习资料/java学习笔记/jar包/spring/spring-framework-4.3.0.RELEASE-dist/spring-framework-4.3.0.RELEASE/libs/spring-context-support-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/个人学习资料/java学习笔记/jar包/spring/aopalliance-1.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
